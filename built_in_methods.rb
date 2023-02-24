@@ -49,6 +49,19 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# The end_with? method is called on the last_name variable, which stores the string object "Zale". 
+# The end_with? method returns true if the data in the last_name variable ends with the argument passed in.
+# In this example, the return value is true, because "Zale" does start with "e".
+# The return value of the end_with? method (true) is printed to the console as an implicit return.
+last_name = "Zale"
+last_name.end_with?("e")
+
+# The count method is called on the home_state variable, which stores the string object "Massachusetts". 
+# The count method passes in an argument that returns the number of times the character "s" occurs in the string object "Massachusetts"
+# In this example, the return value is 4, because "s" occurs in "Massachusetts" 4 times.
+# The return value of the count method (4) is printed to the console as an implicit return.
+home_state = "Massachusetts"
+home_state.count("s")
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
