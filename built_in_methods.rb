@@ -70,7 +70,19 @@ home_state.count("s")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+current_age = 35
+current_age.even?
+# The even? method is called on the current_age variable, which stores the integer object 35
+# The even? method returns true if the integer in the current_age variable is even
+# In this example, the return value is false, because 35 is not even.
+# The return value of the count method, false, is printed to the console as an implicit return.
 
+cat_age = 3
+cat_age.integer?
+# The integer? method is called on the cat_age variable, which stores the integer object 3
+# The integer? method returns true if the data contained in the cat_age variable is an integer
+# In this example, the return value is true, because 3 is an integer
+# The return value of the integer? method, true, is printed to the console as an implicit return
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
