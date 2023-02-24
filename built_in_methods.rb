@@ -89,3 +89,18 @@ cat_age.integer?
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The pop method is called on the plants_in_room array, which has four elements stored in it
+# The pop method returns the final element in the array, "succulents", and removes it from the array
+# In this example, the return value is "succulents", and pop will print the removed element as an implicit return to the console
+plants_in_room = ["pilea", "lemon tree", "dracena", "succulents"]
+plants_in_room.pop
+
+# The fetch method is called on the chinese_food_order array, which has four elements stored in it
+# The fetch method returns the indicated element in the array, 1, which is passed in as an argument
+# In this example, the return value is "bok choi", as it is in index position 1 in the array
+# Fetch will print the indicated element as an implicit return to the console 
+chinese_food_order = ["ginger garlic lamb", "bok choi", "salt and pepper squid", "scallion pancake"]
+chinese_food_order.fetch(1)
+
+
