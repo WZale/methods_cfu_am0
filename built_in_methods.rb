@@ -10,23 +10,33 @@
 
 
 "Hello World".include?("Hello")
-
+# The include? method is called on the string object "Hello World"
+# One arguement is passed; include? checks to see if the string "Hello" is in the larger string object "Hello World"
+# The return value is true, because the string "Hello" is contained within "Hello World"
 
 "Hello World".end_with?("Hello")
-
+# The end_with? method is called on the string object "Hello World"
+# One arguement is passed; end_with? checks to see if the string "Hello" is located at the end of the string object "Hello World"
+# The return value is false, because "Hello" is not located at the end of "Hello World"
 
 "Hello World".end_with?("rld")
-
+# The end_with? method is called on the string object "Hello World"
+# One arguement is passed; end_with? checks to see if the string "rld" is located at the end of the string object "Hello World"
+# The return value is true, because "rld" is located at the end of "Hello World"
 
 12.even?
-
+# The even? method is called on the integer object 12
+# No arguments are passed, as even? only has one job. This is to see if the integer is even or not
+# The boolean return value is true, beacuse the integer 12 is even
 
 18.next
+# The next method is called on the integer object 18
+# No arguments are passed, as the next method only has one job. This is to return number + 1, for integers (not floats) 
+# The return value is 19, because 18 + 1 is 19
 
 
-
-# SECTION 2: Calling methods on variables assigned to strings.
-# Declare 2 variables assigned to string objects.
+# SECTION 2: Calling methods on variables assigned to strings. 
+# Declare 2 variables assigned to string objects. 
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/String.html
 # Include comments above each method call explaining the impact and return value of that method.
